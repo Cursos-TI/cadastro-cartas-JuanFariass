@@ -31,7 +31,8 @@ int main() {
     printf("Por último digite o PIB.Ex:(00.00): ");
     scanf ("%f",&pib);
 
-    //CARTA 2    printf("\n--------------------------------------\n");
+    //CARTA 2    
+printf("\n--------------------------------------\n");
     printf("Agora as informações da carta 2!\n");    printf("--------------------------------------\n");
     printf("Digite a letra do estado: ");
     scanf("%s",letra2);
@@ -49,7 +50,8 @@ int main() {
     scanf ("%f",&pib2);
 
     //ÁREA DE EXIBIÇÃO DE DADOS
-    //CARTA 1  printf("\n----------------------------------\n");
+    //CARTA 1  
+printf("\n----------------------------------\n");
     printf("            CARTA 01              ");
     printf("\n----------------------------------\n");
     printf("Estado: %s\n",letra);
@@ -59,7 +61,8 @@ int main() {
     printf("PIB: %f Bilhões de reais.\n",pib);
     printf("População: %d\n",pop);
     printf("Quantidade de pontos turísticos: %d\n",p_turisticos);
-    //CARTA 2    printf("\n----------------------------------\n");
+    //CARTA 2    
+printf("\n----------------------------------\n");
     printf("            CARTA 02              ");   printf("\n----------------------------------\n\n");
     printf("Estado: %s\n",letra2);
     printf("Código: %s\n",codigo2);
