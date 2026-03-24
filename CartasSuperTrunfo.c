@@ -11,10 +11,9 @@ int main() {
     char  letra2[10],codigo2[10],cidade2[50];
     int   pop2,p_turisticos2 = 0;
     float pib2,area2 = 0.0;
-
-    //ÁREA DE ENTRADA DE DADOS
+    
+//ÁREA DE ENTRADA DE DADOS
     //CARTA 1
-
     printf("Bem-vindo ao super trunfo!!!\n\n");
     printf("--------------------------------------\n");
     printf("Adicione as informações da carta 1!\n");
@@ -34,9 +33,7 @@ int main() {
     printf("Por último digite o PIB.Ex:(00.00): ");
     scanf ("%f",&pib);
 
-    //CARTA 2
-
-    printf("\n--------------------------------------\n");
+    //CARTA 2    printf("\n--------------------------------------\n");
     printf("Agora as informações da carta 2!\n");
     printf("--------------------------------------\n\n");
     printf("Digite a letra do estado: ");
@@ -55,9 +52,7 @@ int main() {
     scanf ("%f",&pib2);
 
     //ÁREA DE EXIBIÇÃO DE DADOS
-    //CARTA 1
-
-    printf("\n\n----------------------------------\n");
+    //CARTA 1  printf("\n\n----------------------------------\n");
     printf("            CARTA 01              ");
     printf("\n----------------------------------\n\n");
     printf("Estado: %s\n",letra);
@@ -68,9 +63,7 @@ int main() {
     printf("População: %d\n",pop);
     printf("Quantidade de pontos turísticos: %d\n",p_turisticos);
 
-    //CARTA 2
-
-    printf("\n\n----------------------------------\n");
+    //CARTA 2    printf("\n\n----------------------------------\n");
     printf("            CARTA 02              ");
     printf("\n----------------------------------\n\n");
     printf("Estado: %s\n",letra2);
