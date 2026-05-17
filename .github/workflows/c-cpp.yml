@@ -1,23 +1,19 @@
-name: C/C++ CI
+name: C Build
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  pull-request:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+      - name: Baixar código
+        uses: actions/checkout@v4
+
+      - name: Compilar programa
+        run: gcc CartasSuperTrunfo.c -o programa
+      
+      - name: Executar programa
+        run: ./programa
