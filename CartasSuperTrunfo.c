@@ -73,4 +73,7 @@ int main() {
     printf("População: %d\n",pop2);
     printf("Quantidade de pontos turísticos: %d\n",p_turisticos2);
     printf("\n----------------------------------\n");
+
+    return 0;
+    
 }
