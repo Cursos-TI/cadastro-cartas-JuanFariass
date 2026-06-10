@@ -6,11 +6,11 @@ int main() {
     //CARTA 1
     char  letra[10],codigo[10],cidade[50];
     int   pop,p_turisticos = 0;
-    float pib,area,pibpc,pibpc2,denpop,denpop2 = 0.0;
+    float pib,area,pibpc,denpop = 0.0;
     //CARTA 2
     char  letra2[10],codigo2[10],cidade2[50];
     int   pop2,p_turisticos2 = 0;
-    float pib2,area2 = 0.0;
+    float pib2,area2,pibpc2,denpop2 = 0.0;
     //ÁREA DE ENTRADA DE DADOS
     //CARTA 1
     printf("Bem-vindo ao super trunfo!!!\n\n");
