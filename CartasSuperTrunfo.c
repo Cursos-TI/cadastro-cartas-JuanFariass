@@ -6,7 +6,7 @@ int main() {
     //CARTA 1
     char  letra[10],codigo[10],cidade[50];
     int   pop,p_turisticos = 0;
-    float pib,area = 0.0;
+    float pib,area,pibpc,pibpc2,denpop,denpop2 = 0.0;
     //CARTA 2
     char  letra2[10],codigo2[10],cidade2[50];
     int   pop2,p_turisticos2 = 0;
@@ -49,6 +49,12 @@ int main() {
     scanf ("%f",&area2);
     printf("Por último digite o PIB.Ex:(00.00): ");
     scanf ("%f",&pib2);
+
+    //FUNÇÃO PARA PIB PER CAPITA E DENSIDADE POPULACIONAL
+     pibpc = pib / pop;
+     pibpc2 =  pib2 / pop2;
+     denpop = pop / area;
+     denpop2 = pop2 / area2;
     //ÁREA DE EXIBIÇÃO DE DADOS
     //CARTA 1
     printf("\n\n----------------------------------\n");
@@ -61,6 +67,8 @@ int main() {
     printf("PIB: %f Bilhões de reais.\n",pib);
     printf("População: %d\n",pop);
     printf("Quantidade de pontos turísticos: %d\n",p_turisticos);
+    printf("PIB per capita: %f\n",pibpc);
+    printf("Densidade populacional: %f\n",denpop);
     //CARTA 2
     printf("\n\n----------------------------------\n");
     printf("            CARTA 02              ");
@@ -72,8 +80,243 @@ int main() {
     printf("PIB: %f Bilhões de reais.\n",pib2);
     printf("População: %d\n",pop2);
     printf("Quantidade de pontos turísticos: %d\n",p_turisticos2);
+    printf("PIB per capita: %f\n",pibpc2);
+    printf("Densidade populacional: %f\n",denpop2);
     printf("\n----------------------------------\n");
 
-    return 0;
-    
+
+
+    return 0; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
